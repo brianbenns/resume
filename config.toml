@@ -1,0 +1,311 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Brian Benns"
+        tagline = "Site Reliability Engineering Tech Lead"
+        avatar = "brian.jpeg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "New Jersey"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "609 713 0047"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "brian.benns@hey.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "brianbenns.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "AWS"
+        [[params.skills.list.items]]
+        details = "Terraform"
+        [[params.skills.list.items]]
+        details = "Kubernetes"
+        [[params.skills.list.items]]
+        details = "Golang"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Identity Access and Management"
+        [[params.skills.list.items]]
+        details = "Database Admin and Monitoring"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Team Leadership"
+        [[params.skills.list.items]]
+        details = "Cross Team Communication"
+        [[params.skills.list.items]]
+        details = "Project Roadmapping"
+        [[params.skills.list.items]]
+        details = "Observability and Incident Response Leader"
+        [[params.skills.list.items]]
+        details = "Professional Pragmatism"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelors of Science in Math and Computer Science"
+        university = "Temple University"
+        dates = "2007 - 2011"
+      
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Golf"
+        [[params.interests.list]]
+        name = "Tabletop Gaming"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = false
+        text = "ABCBEBBDJFJDFNJDFJ"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "SRE Tech Lead"
+        dates = "2023 - Present"
+        company = "GIPHY"
+        details = "Serving billions of search requests per day, GIPHY's API is relied upon by some of the biggest websites in the world. GIPHY's SRE team ensures that reliability by leading GIPHY engineering towards best practices for architecture, observability, security, and testing. As tech lead I was tasked with making forward thinking decisions that would best serve the engineering org and keep GIPHY running smoothly for the millions of people searching for just the right cat GIF to express how they really feel."
+        [[params.experience.list.items]]
+        details = "Coordinated multiple large scale system upgrades with minimal impact to end users such as MySQL or Kubernetes upgrades."
+        [[params.experience.list.items]]
+        details = "Worked with engineering leadership to create semi-annual roadmaps for the SRE team. Followed through on those roadmaps by planning out the work, writing tickets, managing the Kanban board and holding daily standups."
+        [[params.experience.list.items]]
+        details = "Held regular one on one meetings with team members to work through tougher tasks or to help them narrow down larger problems into smaller ones."
+        [[params.experience.list.items]]
+        details = "Lead a cross team interest group to improve observability at GIPHY. We focused on fixing flakey alerts, writing runbooks, and improving knowledge across engineering."
+
+        [[params.experience.list]]
+        title = "Senior SRE"
+        dates = "2019 - 2023"
+        company = "GIPHY"
+        details = "As a Senior SRE my work was focused on the larger technical projects that the team needed to accomplish. These projects often required cross team collaboration, careful planning, and consideration for the impact they'd have on the engineering org."
+        [[params.experience.list.items]]
+        details = "Wrote a multi component system for developers to obtain temporary credentials to database servers leveraging Hashicorp Vault. Users were authenticated via SSO and nobody had static credentials. Wrote a robust Terraform module for new database servers that ensured that every server was added to the credentialing system."
+        [[params.experience.list.items]]
+        details = "Built out GIPHY's Kafka infrastructure with SASL authentication and topic ACLs to ensure services were only accessing the topics they had access to. Clusters, cluster config, users, topics, and topic ACLs were all done in Terraform."
+        [[params.experience.list.items]]
+        details = "Played a significant role in incident response, providing knowledgeable support during outages and shining in debugging and solving incidents. Worked to improve the incident response communication by reorganizing Slack channels, tuning alerts to keep everything relevant."
+
+        [[params.experience.list]]
+        title = "Devops Engineer"
+        dates = "2016-2017, 2019"
+        company = "Kargo"
+        details = "While at Kargo, they were undergoing a technical transformation from a direct placement digital advertising company to a real time supply side platform. This shift in strategy included a massive technical shift as the requests per second shifted from dozens to thousands. As the only full time devops/infrastructure engineer on the team, I was heavily involved in this technical revolution."
+        [[params.experience.list.items]]
+        details = "Lead a migration from AWS Elastic Beanstalk to Docker running on Apache Mesos/Marathon. Later migrated from Mesos/Marathon to Kubernetes to meet the teams tech needs."
+        [[params.experience.list.items]]
+        details = "Setup highly available Kubernetes ingress controller that utilized Trefik, Lets Encrypt, and Consul to achieve HTTPS for all web apps"
+        [[params.experience.list.items]]
+        details = "Cultivated a culture of continuous integration and continuous/push button production deployments by building an easy to use deployment system on Travis-CI"
+        [[params.experience.list.items]]
+        details = "Built out a metrics pipeline to handle millions of time series and thousands of events per second on Telegraf and InfluxDB."
+        [[params.experience.list.items]]
+        details = "Created a Slack bot to deploy apps to different environments using AWS API Gateway, and Lambda"
+
+        [[params.experience.list]]
+        title = "Cloud Engineer"
+        dates = "2017-2018"
+        company = "Data Capital Management"
+        details = "Served as the infrastructure expert for a small, bootstrapped quant hedgefund. I was able to bring devops best practices such as infrastructure as code, log aggregation, and automation to a young firm."
+
+        [[params.experience.list]]
+        title = "Devops Engineer"
+        dates = "2017"
+        company = "TCGPlayer.comg"
+        details = "Lead a cloud migration to AWS that allowed the ecommerce site to scale much more efficiently during big events."
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Work Location"
+        details = "Open to remote and hybrid work in the NYC and NJ metro area."
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Golf, NBA, Sports Analytics, Tabletop Gaming"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/brianbenns"
+        title = "brianbenns"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/brianbenns/"
+        title = "brianbenns"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "https://x.com/spence0016"
+        title = "@spence0016"
+
+
+
+
+
