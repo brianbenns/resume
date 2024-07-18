@@ -75,18 +75,18 @@ theme = "hugo-devresume-theme"
         [[params.skills.list.items]]
         details = "Identity Access and Management"
         [[params.skills.list.items]]
-        details = "Database Admin and Monitoring"
+        details = "Database Administration and Monitoring"
 
         [[params.skills.list]]
         title = "Professional"
         [[params.skills.list.items]]
         details = "Team Leadership"
         [[params.skills.list.items]]
-        details = "Cross Team Communication"
+        details = "Cross-Team Communication"
         [[params.skills.list.items]]
         details = "Project Roadmapping"
         [[params.skills.list.items]]
-        details = "Observability and Incident Response Leader"
+        details = "Observability and Incident Response Leadership"
         [[params.skills.list.items]]
         details = "Professional Pragmatism"
 
@@ -101,7 +101,7 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.education.list]]
-        degree = "Bachelors of Science in Math and Computer Science"
+        degree = "Bachelor of Science in Math and Computer Science"
         university = "Temple University"
         dates = "2007 - 2011"
       
@@ -185,55 +185,55 @@ theme = "hugo-devresume-theme"
         title = "SRE Tech Lead"
         dates = "2023 - Present"
         company = "GIPHY"
-        details = "Serving billions of search requests per day, GIPHY's API is relied upon by some of the biggest websites in the world. GIPHY's SRE team ensures that reliability by leading GIPHY engineering towards best practices for architecture, observability, security, and testing. As tech lead I was tasked with making forward thinking decisions that would best serve the engineering org and keep GIPHY running smoothly for the millions of people searching for just the right cat GIF to express how they really feel."
+        details = "GIPHY's API serves billions of search requests per day, and is utilized by some of the largest websites in the world. GIPHY's SRE team ensures reliability by leading GIPHY engineering towards best practices for architecture, observability, security, and testing. As tech lead, I made forward-thinking decisions that best served the engineering department and kept GIPHY running smoothly for the millions of people searching for just the right cat GIF to express how they really feel."
         [[params.experience.list.items]]
-        details = "Coordinated multiple large scale system upgrades with minimal impact to end users such as MySQL or Kubernetes upgrades."
+        details = "Coordinated multiple large-scale system upgrades with minimal impact to end users, such as MySQL or Kubernetes upgrades."
         [[params.experience.list.items]]
         details = "Worked with engineering leadership to create semi-annual roadmaps for the SRE team. Followed through on those roadmaps by planning out the work, writing tickets, managing the Kanban board and holding daily standups."
         [[params.experience.list.items]]
-        details = "Held regular one on one meetings with team members to work through tougher tasks or to help them narrow down larger problems into smaller ones."
+        details = "Held regular one-on-one meetings with team members to work through complex tasks or to help them break down large problems into smaller ones."
         [[params.experience.list.items]]
-        details = "Lead a cross team interest group to improve observability at GIPHY. We focused on fixing flakey alerts, writing runbooks, and improving knowledge across engineering."
+        details = "Led a cross-team interest group to improve observability at GIPHY. We focused on fixing flakey alerts, writing runbooks, and improving knowledge across engineering."
 
         [[params.experience.list]]
         title = "Senior SRE"
         dates = "2019 - 2023"
         company = "GIPHY"
-        details = "As a Senior SRE my work was focused on the larger technical projects that the team needed to accomplish. These projects often required cross team collaboration, careful planning, and consideration for the impact they'd have on the engineering org."
+        details = "As a Senior SRE, I implemented the larger technical projects on the team roadmap. These projects often required cross-team collaboration, careful planning, and consideration for the impact they'd have on the engineering department."
         [[params.experience.list.items]]
-        details = "Wrote a multi component system for developers to obtain temporary credentials to database servers leveraging Hashicorp Vault. Users were authenticated via SSO and nobody had static credentials. Wrote a robust Terraform module for new database servers that ensured that every server was added to the credentialing system."
+        details = "Wrote a multi-component system for developers to obtain temporary credentials to database servers leveraging Hashicorp Vault. Users were authenticated via SSO, eliminating the need for static credentials. Wrote a robust Terraform module for new database servers which ensured that every server was added to the credentialing system."
         [[params.experience.list.items]]
-        details = "Built out GIPHY's Kafka infrastructure with SASL authentication and topic ACLs to ensure services were only accessing the topics they had access to. Clusters, cluster config, users, topics, and topic ACLs were all done in Terraform."
+        details = "Built out GIPHY's Kafka infrastructure with SASL authentication and topic ACLs to ensure services were only accessing the appropriate topics. Clusters, configuration, users, topics, and topic ACLs were all implemented with Terraform modules."
         [[params.experience.list.items]]
-        details = "Played a significant role in incident response, providing knowledgeable support during outages and shining in debugging and solving incidents. Worked to improve the incident response communication by reorganizing Slack channels, tuning alerts to keep everything relevant."
+        details = "Played a significant role in incident response, providing knowledgeable support during outages by debugging and solving incidents. Worked to improve incident response communication by reorganizing Slack channels and tuning alerts to keep everything relevant."
 
         [[params.experience.list]]
         title = "Devops Engineer"
         dates = "2016-2017, 2019"
         company = "Kargo"
-        details = "While at Kargo, they were undergoing a technical transformation from a direct placement digital advertising company to a real time supply side platform. This shift in strategy included a massive technical shift as the requests per second shifted from dozens to thousands. As the only full time devops/infrastructure engineer on the team, I was heavily involved in this technical revolution."
+        details = "During my time at Kargo, the company underwent a technical transformation from a direct placement digital advertising company to a real-time supply side platform. This shift in strategy included a massive technical overhaul, as the requests per second increased from dozens to thousands. As the only full-time devops/infrastructure engineer on the team, I was heavily involved in this technical revolution."
         [[params.experience.list.items]]
-        details = "Lead a migration from AWS Elastic Beanstalk to Docker running on Apache Mesos/Marathon. Later migrated from Mesos/Marathon to Kubernetes to meet the teams tech needs."
+        details = "Led a migration from AWS Elastic Beanstalk to Docker running on Apache Mesos/Marathon. Later migrated from Mesos/Marathon to Kubernetes to meet the teams' tech needs."
         [[params.experience.list.items]]
-        details = "Setup highly available Kubernetes ingress controller that utilized Trefik, Lets Encrypt, and Consul to achieve HTTPS for all web apps"
+        details = "Set up a highly available Kubernetes ingress controller that utilized Trefik, Lets Encrypt, and Consul to achieve HTTPS for all web apps."
         [[params.experience.list.items]]
-        details = "Cultivated a culture of continuous integration and continuous/push button production deployments by building an easy to use deployment system on Travis-CI"
+        details = "Cultivated a culture of continuous integration and push button production deployments by building a user-friendly deployment system on Travis-CI."
         [[params.experience.list.items]]
         details = "Built out a metrics pipeline to handle millions of time series and thousands of events per second on Telegraf and InfluxDB."
         [[params.experience.list.items]]
-        details = "Created a Slack bot to deploy apps to different environments using AWS API Gateway, and Lambda"
+        details = "Created a Slack bot to deploy apps to different environments using AWS API Gateway and Lambda."
 
         [[params.experience.list]]
         title = "Cloud Engineer"
         dates = "2017-2018"
         company = "Data Capital Management"
-        details = "Served as the infrastructure expert for a small, bootstrapped quant hedgefund. I was able to bring devops best practices such as infrastructure as code, log aggregation, and automation to a young firm."
+        details = "Served as the infrastructure expert for a small start-up quant hedge fund. I brought devops best practices such as infrastructure-as-code, log aggregation, and automation to a young firm."
 
         [[params.experience.list]]
         title = "Devops Engineer"
         dates = "2017"
         company = "TCGPlayer.comg"
-        details = "Lead a cloud migration to AWS that allowed the ecommerce site to scale much more efficiently during big events."
+        details = "Led a cloud migration to AWS that allowed the ecommerce site to scale much more efficiently during big events."
 
 
 
@@ -276,7 +276,7 @@ theme = "hugo-devresume-theme"
 
         [[params.information.list]]
         title = "Work Location"
-        details = "Open to remote and hybrid work in the NYC and NJ metro area."
+        details = "Open to remote and hybrid work in the NYC and NJ metro areas."
 
         [[params.information.list]]
         title = "Interests"
