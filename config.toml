@@ -12,8 +12,8 @@ theme = "hugo-devresume-theme"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "Brian Benns"
+    description = "Brian Benns Resume, SRE Tech Lead"
 
 
     primaryColor = "#54B689"
