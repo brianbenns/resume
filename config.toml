@@ -232,7 +232,7 @@ theme = "hugo-devresume-theme"
         [[params.experience.list]]
         title = "Devops Engineer"
         dates = "2017"
-        company = "TCGPlayer.comg"
+        company = "TCGPlayer.com"
         details = "Led a cloud migration to AWS that allowed the ecommerce site to scale much more efficiently during big events."
 
 
