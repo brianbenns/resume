@@ -183,7 +183,7 @@ theme = "hugo-devresume-theme"
 
         [[params.experience.list]]
         title = "SRE Tech Lead"
-        dates = "2023 - Present"
+        dates = "2023 - 2024"
         company = "GIPHY"
         details = "GIPHY's API serves billions of search requests per day, and is utilized by some of the largest websites in the world. GIPHY's SRE team ensures reliability by leading GIPHY engineering towards best practices for architecture, observability, security, and testing. As tech lead, I made forward-thinking decisions that best served the engineering department and kept GIPHY running smoothly for the millions of people searching for just the right cat GIF to express how they really feel."
         [[params.experience.list.items]]
