@@ -13,7 +13,7 @@ theme = "hugo-devresume-theme"
 
 [params]
     author = "Brian Benns"
-    description = "Brian Benns Resume, SRE Tech Lead"
+    description = "Brian Benns Resume, Infrastructure Engineering Manager"
 
 
     primaryColor = "#54B689"
@@ -25,7 +25,7 @@ theme = "hugo-devresume-theme"
     [params.profile]
         enable = true
         name = "Brian Benns"
-        tagline = "Site Reliability Engineering Tech Lead"
+        tagline = "Infrastructure Engineering Manager"
         avatar = "brian.jpeg"
 
 
@@ -40,16 +40,12 @@ theme = "hugo-devresume-theme"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:#"
+        url = "tel:+16097130047"
         text = "609 713 0047"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
+        url = "mailto:brian.benns@hey.com"
         text = "brian.benns@hey.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "#"
-        text = "brianbenns.com"
 
 
 
@@ -73,9 +69,20 @@ theme = "hugo-devresume-theme"
         [[params.skills.list.items]]
         details = "Python"
         [[params.skills.list.items]]
-        details = "Identity Access and Management"
+        details = "Identity and Access Management (IAM)"
         [[params.skills.list.items]]
         details = "Database Administration and Monitoring"
+
+        [[params.skills.list]]
+        title = "AI Infrastructure & Tooling"
+        [[params.skills.list.items]]
+        details = "GPU inference infrastructure"
+        [[params.skills.list.items]]
+        details = "NVIDIA Triton"
+        [[params.skills.list.items]]
+        details = "Kubernetes model serving"
+        [[params.skills.list.items]]
+        details = "AI-assisted software engineering"
 
         [[params.skills.list]]
         title = "Professional"
@@ -182,10 +189,28 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
+        title = "Infrastructure Engineering Manager"
+        dates = "April 2025 - Present"
+        company = "Teleskope"
+        company_url = "https://www.teleskope.ai"
+        details = "Teleskope is an AI-powered data security platform. I lead infrastructure engineering, supporting enterprise customers across AWS, Azure, and GCP with secure, reliable deployment infrastructure."
+        [[params.experience.list.items]]
+        details = "Built and operated enterprise Kubernetes infrastructure across AWS, Azure, and GCP, automating provisioning and releases with Terraform, Helm, and GitHub Actions while hardening customer networking, identity, and audit controls."
+        [[params.experience.list.items]]
+        details = "Architected a multi-tenant Kubernetes platform with shared GPU inference, isolated customer workloads, and automated environment lifecycles. Ensured tenant isolation through strict, auditable network and identity boundaries."
+        [[params.experience.list.items]]
+        details = "Established fleet-wide observability with Datadog, Prometheus, APM, and pipeline completion telemetry, exposing silent processing failures and guiding infrastructure sizing, monitoring-cost optimization, and incident diagnosis."
+        [[params.experience.list.items]]
+        details = "Led the team through CI/CD pipeline rewrites, development of an internal tool for accessing dozens of cloud environments, and Kubernetes and MySQL upgrades."
+        [[params.experience.list.items]]
+        details = "Advised customers and engineering teams on infrastructure architecture, security, and product feasibility through technical customer discussions and architecture reviews."
+        
+
+        [[params.experience.list]]
         title = "SRE Tech Lead"
         dates = "2023 - 2024"
         company = "GIPHY"
-        details = "GIPHY's API serves billions of search requests per day, and is utilized by some of the largest websites in the world. GIPHY's SRE team ensures reliability by leading GIPHY engineering towards best practices for architecture, observability, security, and testing. As tech lead, I made forward-thinking decisions that best served the engineering department and kept GIPHY running smoothly for the millions of people searching for just the right cat GIF to express how they really feel."
+        details = "Led technical direction for GIPHY's SRE team, supporting an API serving billions of search requests daily through improvements to architecture, observability, security, and testing."
         [[params.experience.list.items]]
         details = "Coordinated multiple large-scale system upgrades with minimal impact to end users, such as MySQL or Kubernetes upgrades."
         [[params.experience.list.items]]
@@ -193,29 +218,29 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Held regular one-on-one meetings with team members to work through complex tasks or to help them break down large problems into smaller ones."
         [[params.experience.list.items]]
-        details = "Led a cross-team interest group to improve observability at GIPHY. We focused on fixing flakey alerts, writing runbooks, and improving knowledge across engineering."
+        details = "Led a cross-team interest group to improve observability at GIPHY. We focused on fixing flaky alerts, writing runbooks, and improving knowledge across engineering."
 
         [[params.experience.list]]
         title = "Senior SRE"
         dates = "2019 - 2023"
         company = "GIPHY"
-        details = "As a Senior SRE, I implemented the larger technical projects on the team roadmap. These projects often required cross-team collaboration, careful planning, and consideration for the impact they'd have on the engineering department."
+        details = "Delivered major infrastructure projects on the SRE roadmap, coordinating across engineering teams to plan and implement changes safely."
         [[params.experience.list.items]]
-        details = "Wrote a multi-component system for developers to obtain temporary credentials to database servers leveraging Hashicorp Vault. Users were authenticated via SSO, eliminating the need for static credentials. Wrote a robust Terraform module for new database servers which ensured that every server was added to the credentialing system."
+        details = "Wrote a multi-component system for developers to obtain temporary credentials to database servers leveraging HashiCorp Vault. Users were authenticated via SSO, eliminating the need for static credentials. Wrote a robust Terraform module for new database servers which ensured that every server was added to the credentialing system."
         [[params.experience.list.items]]
         details = "Built out GIPHY's Kafka infrastructure with SASL authentication and topic ACLs to ensure services were only accessing the appropriate topics. Clusters, configuration, users, topics, and topic ACLs were all implemented with Terraform modules."
         [[params.experience.list.items]]
         details = "Played a significant role in incident response, providing knowledgeable support during outages by debugging and solving incidents. Worked to improve incident response communication by reorganizing Slack channels and tuning alerts to keep everything relevant."
 
         [[params.experience.list]]
-        title = "Devops Engineer"
+        title = "DevOps Engineer"
         dates = "2016-2017, 2019"
         company = "Kargo"
-        details = "During my time at Kargo, the company underwent a technical transformation from a direct placement digital advertising company to a real-time supply side platform. This shift in strategy included a massive technical overhaul, as the requests per second increased from dozens to thousands. As the only full-time devops/infrastructure engineer on the team, I was heavily involved in this technical revolution."
+        details = "Served as the sole full-time DevOps/infrastructure engineer during Kargo's transition to a real-time supply-side advertising platform, supporting growth from dozens to thousands of requests per second."
         [[params.experience.list.items]]
         details = "Led a migration from AWS Elastic Beanstalk to Docker running on Apache Mesos/Marathon. Later migrated from Mesos/Marathon to Kubernetes to meet the teams' tech needs."
         [[params.experience.list.items]]
-        details = "Set up a highly available Kubernetes ingress controller that utilized Trefik, Lets Encrypt, and Consul to achieve HTTPS for all web apps."
+        details = "Set up a highly available Kubernetes ingress controller that utilized Traefik, Let's Encrypt, and Consul to achieve HTTPS for all web apps."
         [[params.experience.list.items]]
         details = "Cultivated a culture of continuous integration and push button production deployments by building a user-friendly deployment system on Travis-CI."
         [[params.experience.list.items]]
@@ -227,10 +252,10 @@ theme = "hugo-devresume-theme"
         title = "Cloud Engineer"
         dates = "2017-2018"
         company = "Data Capital Management"
-        details = "Served as the infrastructure expert for a small start-up quant hedge fund. I brought devops best practices such as infrastructure-as-code, log aggregation, and automation to a young firm."
+        details = "Served as the infrastructure expert for a small start-up quant hedge fund. I brought DevOps best practices such as infrastructure-as-code, log aggregation, and automation to a young firm."
 
         [[params.experience.list]]
-        title = "Devops Engineer"
+        title = "DevOps Engineer"
         dates = "2017"
         company = "TCGPlayer.com"
         details = "Led a cloud migration to AWS that allowed the ecommerce site to scale much more efficiently during big events."
@@ -304,8 +329,3 @@ theme = "hugo-devresume-theme"
         icon = "fab fa-twitter-square"
         url = "https://x.com/spence0016"
         title = "@spence0016"
-
-
-
-
-
