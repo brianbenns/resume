@@ -193,18 +193,21 @@ theme = "hugo-devresume-theme"
         dates = "April 2025 - Present"
         company = "Teleskope"
         company_url = "https://www.teleskope.ai"
-        details = "Teleskope is an AI-powered data security platform. I lead infrastructure engineering, supporting enterprise customers across AWS, Azure, and GCP with secure, reliable deployment infrastructure."
+        details = "AI-powered data security platform. Lead infrastructure engineering and a team of two engineers, running 60+ enterprise customer environments across AWS, Azure, and GCP."
         [[params.experience.list.items]]
-        details = "Built and operated enterprise Kubernetes infrastructure across AWS, Azure, and GCP, automating provisioning and releases with Terraform, Helm, and GitHub Actions while hardening customer networking, identity, and audit controls."
+        details = "Built and operate 60+ enterprise Kubernetes environments across AWS, Azure, and GCP, automating provisioning and releases with Terraform, Helm, and GitHub Actions."
         [[params.experience.list.items]]
-        details = "Architected a multi-tenant Kubernetes platform with shared GPU inference, isolated customer workloads, and automated environment lifecycles. Ensured tenant isolation through strict, auditable network and identity boundaries."
+        details = "Drove an AI-first way of working: built an infrastructure sizing agent that reads Datadog metrics and resizes customer environments or opens PRs to do it, and guided a direct report in building an AI PR-review agent that nearly doubled engineering velocity, letting a three-person team run 60+ customer environments."
         [[params.experience.list.items]]
-        details = "Established fleet-wide observability with Datadog, Prometheus, APM, and pipeline completion telemetry, exposing silent processing failures and guiding infrastructure sizing, monitoring-cost optimization, and incident diagnosis."
+        details = "Architected a multi-tenant Kubernetes platform with shared GPU inference and isolated customer workloads, speeding up customer onboarding and lowering cost per customer."
         [[params.experience.list.items]]
-        details = "Led the team through CI/CD pipeline rewrites, development of an internal tool for accessing dozens of cloud environments, and Kubernetes and MySQL upgrades."
+        details = "Rebuilt CI/CD to support dozens of deploys a day, with one dashboard showing exactly what's running in every environment."
         [[params.experience.list.items]]
-        details = "Advised customers and engineering teams on infrastructure architecture, security, and product feasibility through technical customer discussions and architecture reviews."
-        
+        details = "Established fleet-wide observability with Datadog, Prometheus, and APM, significantly improving uptime and reducing mean time to recovery."
+        [[params.experience.list.items]]
+        details = "Built the infrastructure controls that support SOC 2 and ISO compliance, back enterprise security reviews and pen tests, and keep dependencies continuously up to date."
+        [[params.experience.list.items]]
+        details = "Led the team through Kubernetes and MySQL upgrades and built an internal tool for accessing every customer's cloud environment."
 
         [[params.experience.list]]
         title = "SRE Tech Lead"
@@ -252,7 +255,7 @@ theme = "hugo-devresume-theme"
         title = "Cloud Engineer"
         dates = "2017-2018"
         company = "Data Capital Management"
-        details = "Served as the infrastructure expert for a small start-up quant hedge fund. I brought DevOps best practices such as infrastructure-as-code, log aggregation, and automation to a young firm."
+        details = "Served as the infrastructure expert for a small start-up quant hedge fund. Brought DevOps best practices such as infrastructure-as-code, log aggregation, and automation to a young firm."
 
         [[params.experience.list]]
         title = "DevOps Engineer"
