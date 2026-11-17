@@ -193,19 +193,19 @@ theme = "hugo-devresume-theme"
         dates = "April 2025 - Present"
         company = "Teleskope"
         company_url = "https://www.teleskope.ai"
-        details = "AI-powered data security platform. Lead infrastructure engineering and a team of two engineers, running 60+ enterprise customer environments across AWS, Azure, and GCP."
+        details = "AI-powered data security platform. Led infrastructure engineering and a team of two engineers, running 60+ enterprise customer environments across AWS, Azure, and GCP."
         [[params.experience.list.items]]
-        details = "Built and operate 60+ enterprise Kubernetes environments across AWS, Azure, and GCP, automating provisioning and releases with Terraform, Helm, and GitHub Actions."
+        details = "Built and operated 60+ enterprise Kubernetes environments across AWS, Azure, and GCP, automating provisioning and releases with Terraform, Helm, and GitHub Actions."
         [[params.experience.list.items]]
-        details = "Drove an AI-first way of working: built an infrastructure sizing agent that reads Datadog metrics and resizes customer environments or opens PRs to do it, and guided a direct report in building an AI PR-review agent that nearly doubled engineering velocity, letting a three-person team run 60+ customer environments."
+        details = "Drove an AI-first way of working: built an infrastructure sizing agent that read Datadog metrics and resized customer environments or opened PRs to do it, and guided a direct report in building an AI PR-review agent that nearly doubled engineering velocity, letting a three-person team run 60+ customer environments."
         [[params.experience.list.items]]
         details = "Architected a multi-tenant Kubernetes platform with shared GPU inference and isolated customer workloads, speeding up customer onboarding and lowering cost per customer."
         [[params.experience.list.items]]
-        details = "Rebuilt CI/CD to support dozens of deploys a day, with one dashboard showing exactly what's running in every environment."
+        details = "Rebuilt CI/CD to support dozens of deploys a day, with one dashboard showing exactly what was running in every environment."
         [[params.experience.list.items]]
         details = "Established fleet-wide observability with Datadog, Prometheus, and APM, significantly improving uptime and reducing mean time to recovery."
         [[params.experience.list.items]]
-        details = "Built the infrastructure controls that support SOC 2 and ISO compliance, back enterprise security reviews and pen tests, and keep dependencies continuously up to date."
+        details = "Built the infrastructure controls that supported SOC 2 and ISO compliance, backed enterprise security reviews and pen tests, and kept dependencies continuously up to date."
         [[params.experience.list.items]]
         details = "Led the team through Kubernetes and MySQL upgrades and built an internal tool for accessing every customer's cloud environment."
 
