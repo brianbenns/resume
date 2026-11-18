@@ -197,7 +197,7 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Built and operated 60+ enterprise Kubernetes environments across AWS, Azure, and GCP, automating provisioning and releases with Terraform, Helm, and GitHub Actions."
         [[params.experience.list.items]]
-        details = "Drove an AI-first way of working: built an infrastructure sizing agent that read Datadog metrics and resized customer environments or opened PRs to do it, and guided a direct report in building an AI PR-review agent that nearly doubled engineering velocity, letting a three-person team run 60+ customer environments."
+        details = "Drove an AI-first way of working: built an infrastructure sizing agent that read Datadog metrics and resized customer environments or opened PRs to do it, and guided a direct report in building an AI PR-review agent that nearly doubled engineering velocity."
         [[params.experience.list.items]]
         details = "Architected a multi-tenant Kubernetes platform with shared GPU inference and isolated customer workloads, speeding up customer onboarding and lowering cost per customer."
         [[params.experience.list.items]]
